@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- teacher css -->
+    <link rel="stylesheet" href="teacher.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="app.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon title -->
+    <link rel="icon" href="teacher_img/Новый проект.png">
+</head>
+
+<body>
+    <!-- modal dialog start -->
+    <section>
+        <div class="search_modal">
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header  py-0 pt-3">
+                    <span></span>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body py-0 pt-0">
+                    <div class="container">
+                        <h3 class="offcanvas-title first_color text-center">Sayt boyicha izlash</h3>
+                        <form action="" class="row justify-content-center">
+                            <div class="col-12 col-md-7">
+                                <div class="input-group mb-3 ">
+                                    <input type="text" class="form-control form-control-lg box_shadow_nonne" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                    <button class="btn px-4 first_bg" type="button" id="button-addon1">Button</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal dialog end -->
+    <section class="container-fluid p-0">
+        <!-- menue start -->
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container_new d-block">
+                    <div class="psevdo_left_right d-none d-sm-block"></div>
+                    <div class="row">
+                        <div class="col-12  justify-content-beetwen">
+                            <div class="row align-items-center">
+                                <div class="col-9 col-lg-5 align-items-center">
+                                    <div class="brand_div">
+                                        <a class="brand_link gap-2" href="index.html">
+                                            <img class="brand_img brand_im" src="teacher_img/ANVARXON FONSIZ.png"
+                                                alt="">
+                                            <p
+                                                class="text-uppercase border-start ps-2 border-2 fs-6 mt-4 brand_text fw-bold d-none d-sm-block">
+                                                Axborot tizimlari va
+                                                texnologiyalari kafedrasi
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-3 order-1 order-lg-2">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                <div
+                                    class="col-12 col-lg-7 gap-3 align_items_center text-center  justify-content-between justify-content-lg-end order-2 order-lg-1 d-block d-sm-flex">
+                                    <div class="language d-flex justify-content-center mt-3 mt-sm-0">
+                                        <button class="brr-50 btn_language language_active uz">UZ</button>
+                                        <button class="brr-50 btn_language py">Py</button>
+                                        <button class="brr-50 btn_language eng">ENG</button>
+                                    </div>
+                                    <div class="number_namqi mt-3 mt-sm-0">
+                                        <p class="mb-0 fs-13">Ishonch telefonlari</p>
+                                        <a class="first_color fs-13" href="tel:+998692341523">(+99 869) 234-15-23</a>
+                                    </div>
+                                    <div class="search_inp mt-3 mt-sm-0">
+                                        <i data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                                            aria-controls="offcanvasTop"
+                                            class="fa-solid fa-magnifying-glass fs-4 first_color cursor_pointer"></i>
+                                    </div>
+                                    <div class="ms-5 d-none d-lg-block mt-3 mt-sm-0">
+                                        <a class="brand_link gap-3" href="https://nammqi.uz/">
+                                            <img class="brand_img" src="teacher_img/logotip NamMQI.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3 border-bottom">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 gap-0 gap-lg-3 mb-lg-0 col justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page" href="#">KAFEDRA
+                                            TARIXI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page" href="#">PROFESSOR
+                                            O'QITUVCHILAR</a>
+                                    </li>
+                                    <li id="dropdown_link" class="nav-item">
+                                        <a class="nav-link  dropdown-toggle text-uppercase" href="#">
+                                            Ta'lim
+                                        </a>
+                                        <ul id="dropdown_menu" class="dropdown-menu ">
+                                            <li><a class="dropdown-item text-uppercase fs-13" href="#">O'qitiladigan
+                                                    fanlar</a></li>
+                                            <li><a class="dropdown-item text-uppercase fs-13" href="#">Elektron
+                                                    darslik</a></li>
+                                            <li><a class="dropdown-item text-uppercase fs-13" href="#">Iqtidorli
+                                                    o'quvchilar</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page" href="#">PORTFOLIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">BOG'LANISH</a>
+                                    </li>
+
+
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- menue end -->
+        <!-- teacher section start -->
+        <section class="teachers_section">
+            <div class="container mt-50">
+                <p class="fs-13">Asosiy / <span class="text-muted">o'qituvchilar</span></p>
+                <h4>O'QITUVCHILAR</h4>
+                <div class="shadow  pt-5 mt-5">
+                    <div class="card border m-4">
+                        <div class="card-header">
+                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">kafedra mudiri</h5>
+                        </div>
+                        <div class="row align-items-center p-4">
+                            <div class="col-12 col-lg-3 border_end">
+                                <center>
+                                    <div class="img_div border mt-3">
+                                        <img class="img_card mt-10" src="teacher_img/Komilov Sahob1.jpg" alt="">
+                                    </div>
+                                    <div class="icons mt-4">
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f">
+                                                </i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
+                                <h2 class="text-center text-lg-start">Komilov Sahob Rasuljonovich</h2>
+                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
+                                <p><i class="fa-solid fa-envelope text-warning"></i> sahob.komilov@gmail.com</p>
+                                <div class="btn_div">
+                                    <a href="#">
+                                        <button class="btn  first_bg  px-4 py-2 shadov">Batafsil..</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border m-4">
+                        <div class="card-header">
+                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">Dotsent</h5>
+                        </div>
+                        <div class="row align-items-center p-4">
+                            <div class="col-12 col-lg-3 border_end">
+                                <center>
+                                    <div class="img_div border mt-3">
+                                        <img class="img_card" src="teacher_img/to'xtasinov.jpg" alt="">
+                                    </div>
+                                    <div class="icons mt-4">
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f">
+                                                </i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
+                                <h2 class="text-center text-lg-start">To`xtasinov Mumtozali To`lqinaliyevich</h2>
+
+                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
+                                <p><i class="fa-solid fa-envelope text-warning"></i> mumtozali@inbox.uz</p>
+                                <div class="btn_div">
+                                    <a href="#">
+                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border m-4">
+                        <div class="card-header">
+                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">Professor</h5>
+                        </div>
+                        <div class="row align-items-center p-4">
+                            <div class="col-12 col-lg-3 border_end">
+                                <center>
+                                    <div class="img_div border mt-3">
+                                        <img class="img_card" src="teacher_img/olimov.jpg" alt="">
+                                    </div>
+                                    <div class="icons mt-4">
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f">
+                                                </i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div  first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
+                                <h2 class="text-center text-lg-start">Olimov Murodulla</h2>
+                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
+                                <p><i class="fa-solid fa-envelope text-warning"></i> m_olimov@umail.uz</p>
+                                <div class="btn_div">
+                                    <a href="#">
+                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border m-4">
+                        <div class="card-header">
+                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">o‘qituvchi</h5>
+                        </div>
+                        <div class="row align-items-center p-4">
+                            <div class="col-12 col-lg-3 border_end">
+                                <center>
+                                    <div class="img_div border mt-3">
+                                        <img class="img_card" src="teacher_img/umudjon.jpg" alt="">
+                                    </div>
+                                    <div class="icons mt-4">
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f">
+                                                </i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
+                                <h2 class="text-center text-lg-start">G'oyipov Umidjon Gulomjonovich</h2>
+                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
+                                <p><i class="fa-solid fa-envelope text-warning"></i> umidjon85@inbox.uz</p>
+                                <div class="btn_div">
+                                    <a href="#">
+                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border m-4">
+                        <div class="card-header">
+                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">katta o‘qituvch</h5>
+                        </div>
+                        <div class="row align-items-center p-4">
+                            <div class="col-12 col-lg-3 border_end">
+                                <center>
+                                    <div class="img_div border mt-3">
+                                        <img class="img_card" src="teacher_img/zohidjon).jpg" alt="">
+                                    </div>
+                                    <div class="icons mt-4">
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook-f">
+                                                </i>
+                                            </a>
+                                        </div>
+                                        <div class="icons_div first_bg">
+                                            <a href="#">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
+                                <h2 class="text-center text-lg-start">Kodirov Zohidjon Zokirxanovich</h2>
+                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
+                                <p><i class="fa-solid fa-envelope text-warning"></i> z_z_kodirov@gmail.com</p>
+                                <div class="btn_div">
+                                    <a href="#">
+                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- teacher section end -->
+        <!-- footer start -->
+        <section class="footer mt-100 border-top">
+            <div class="container_new pt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <p class="white">
+                            Namangan Muhandislik Qurulish instituti Axborot tizimlari va texnologiyalari kafedrasi <br> © 2006-2022
+                        </p>
+                        <a class="brand_link gap-2" href="#">
+                            <img class="brand_img brand_im" src="teacher_img/ANVARXON FONSIZ.png"
+                                alt="">
+                            <p
+                                class="text-uppercase border-start ps-2 border-2 fs-6 mt-4 brand_text fw-bold d-none d-sm-block white">
+                                Axborot tizimlari va
+                                texnologiyalari kafedrasi
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">KAFEDRA
+                                    TARIXI</a></li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">KAFEDRA
+                                    TARKIBI</a></li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">O'QITILADIGAN FANLAR</a></li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link text-uppercase p-0 fs-13 white">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link text-uppercase p-0 fs-13 white">ELEKTRON DARSLIK</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link text-uppercase p-0 fs-13 white">IQTIDORLI O'QUVCHILAR</a>
+                                </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <!-- footer end -->
+    </section>
+
+
+
+
+    <!-- Bootstrap Js -->
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <!-- main js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
