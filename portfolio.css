@@ -1,0 +1,15 @@
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.port_card{
+    max-width: 560px;
+    display: inline-block;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin: 10px;
+}
+.port_card .card-body{
+    padding: 10px;
+    display: inline-block;
+}

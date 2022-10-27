@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- teacher css -->
-    <link rel="stylesheet" href="teacher.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="app.css">
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="app.css">
+    <!-- teacher css -->
+    <link rel="stylesheet" href="teacher.css">
+    <!-- portfolio css -->
+    <link rel="stylesheet" href="portfolio.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -35,7 +37,9 @@
                         <form action="" class="row justify-content-center">
                             <div class="col-12 col-md-7">
                                 <div class="input-group mb-3 ">
-                                    <input type="text" class="form-control form-control-lg box_shadow_nonne" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                    <input type="text" class="form-control form-control-lg box_shadow_nonne"
+                                        placeholder="" aria-label="Example text with button addon"
+                                        aria-describedby="button-addon1">
                                     <button class="btn px-4 first_bg" type="button" id="button-addon1">Button</button>
                                 </div>
                             </div>
@@ -58,8 +62,7 @@
                                 <div class="col-9 col-lg-5 align-items-center">
                                     <div class="brand_div">
                                         <a class="brand_link gap-2" href="index.html">
-                                            <img class="brand_img brand_im" src="img/att_logo.png"
-                                                alt="">
+                                            <img class="brand_img brand_im" src="img/att_logo.png" alt="">
                                             <p
                                                 class="text-uppercase border-start ps-2 border-2 fs-6 mt-4 brand_text fw-bold d-none d-sm-block">
                                                 Axborot tizimlari va
@@ -108,8 +111,9 @@
                                             TARIXI</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-uppercase" aria-current="page" href="#">
-                                            Kafedra tarkibi</a>
+                                        <a class="nav-link text-uppercase" aria-current="page"
+                                            href="teacher.html">Kafedra
+                                            tarkibi</a>
                                     </li>
                                     <li id="dropdown_link" class="nav-item">
                                         <a class="nav-link  dropdown-toggle text-uppercase" href="#">
@@ -126,12 +130,16 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link text-uppercase" aria-current="page" href="portfolio.html">PORTFOLIO</a>
+                                        <a class="nav-link text-uppercase" aria-current="page" href="#">PORTFOLIO</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-uppercase" href="#">BOG'LANISH</a>
                                     </li>
+
+
+
                                 </ul>
+
                             </div>
                         </div>
                     </div>
@@ -139,13 +147,14 @@
             </nav>
         </section>
         <!-- menue end -->
-        <!-- teacher section start -->
-        <section class="teachers_section">
-            <div class="container mt-50">
+        <!-- portfolio start -->
+        <section class="portfolio_section">
+            <div class="container_new mt-50">
                 <p class="fs-13">Asosiy / <span class="text-muted">o'qituvchilar</span></p>
-                <h4>O'QITUVCHILAR</h4>
+                <h4 class="text-uppercase">Portfolio</h4>
                 <div class="shadow  pt-5 mt-5">
-                    <div class="card border m-4">
+                    <!-- ourself about start -->
+                    <div class="card border mx-5 my-4">
                         <div class="card-header">
                             <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">kafedra mudiri</h5>
                         </div>
@@ -180,186 +189,118 @@
                                 <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
                                 <p><i class="fa-solid fa-envelope text-warning"></i> sahob.komilov@gmail.com</p>
                                 <div class="btn_div">
-                                    <a href="#">
-                                        <button class="btn  first_bg  px-4 py-2 shadov">Batafsil..</button>
+                                    <a href="#portfolio">
+                                        <button class="btn  first_bg  px-4 py-2 shadov">Portfolio..</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card border m-4">
-                        <div class="card-header">
-                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">Dotsent</h5>
-                        </div>
-                        <div class="row align-items-center p-4">
-                            <div class="col-12 col-lg-3 border_end">
-                                <center>
-                                    <div class="img_div border mt-3">
-                                        <img class="img_card" src="teacher_img/to'xtasinov.jpg" alt="">
-                                    </div>
-                                    <div class="icons mt-4">
-                                        <div class="icons_div  first_bg">
-                                            <a href="#">
-                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div  first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-facebook-f">
-                                                </i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div  first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </center>
-                            </div>
-                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
-                                <h2 class="text-center text-lg-start">To`xtasinov Mumtozali To`lqinaliyevich</h2>
+                      <!-- ourself about end -->
 
-                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
-                                <p><i class="fa-solid fa-envelope text-warning"></i> mumtozali@inbox.uz</p>
-                                <div class="btn_div">
-                                    <a href="#">
-                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
-                                    </a>
+
+                      <!-- portfolio start -->
+                      <div class="border-top border-info border-2 mt-5 mx-3">
+                        <p class="mb-5 mt-3 text-start">Kasbiy faoliyat</p>
+                        <div id="portfolio" class="portfolio gap-3">
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
+                                </div>
+                            </div>
+                            <div class="port_card">
+                                <img class="w-100" src="teacher_img/photo_2022-10-20_15-01-23.jpg" alt="">
+                                <div class="card-body">
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias iusto delectus sint nam facilis nesciunt dolor asperiores voluptatum voluptate quia adipisci necessitatibus animi architecto sequi amet, sunt fugit qui.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card border m-4">
-                        <div class="card-header">
-                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">Professor</h5>
-                        </div>
-                        <div class="row align-items-center p-4">
-                            <div class="col-12 col-lg-3 border_end">
-                                <center>
-                                    <div class="img_div border mt-3">
-                                        <img class="img_card" src="teacher_img/olimov.jpg" alt="">
-                                    </div>
-                                    <div class="icons mt-4">
-                                        <div class="icons_div  first_bg">
-                                            <a href="#">
-                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-facebook-f">
-                                                </i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div  first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </center>
-                            </div>
-                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
-                                <h2 class="text-center text-lg-start">Olimov Murodulla</h2>
-                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
-                                <p><i class="fa-solid fa-envelope text-warning"></i> m_olimov@umail.uz</p>
-                                <div class="btn_div">
-                                    <a href="#">
-                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border m-4">
-                        <div class="card-header">
-                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">o‘qituvchi</h5>
-                        </div>
-                        <div class="row align-items-center p-4">
-                            <div class="col-12 col-lg-3 border_end">
-                                <center>
-                                    <div class="img_div border mt-3">
-                                        <img class="img_card" src="teacher_img/umudjon.jpg" alt="">
-                                    </div>
-                                    <div class="icons mt-4">
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-facebook-f">
-                                                </i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </center>
-                            </div>
-                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
-                                <h2 class="text-center text-lg-start">G'oyipov Umidjon Gulomjonovich</h2>
-                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
-                                <p><i class="fa-solid fa-envelope text-warning"></i> umidjon85@inbox.uz</p>
-                                <div class="btn_div">
-                                    <a href="#">
-                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border m-4">
-                        <div class="card-header">
-                            <h5 class="text-uppercase text-center text-lg-start fw-bold text-muted">katta o‘qituvch</h5>
-                        </div>
-                        <div class="row align-items-center p-4">
-                            <div class="col-12 col-lg-3 border_end">
-                                <center>
-                                    <div class="img_div border mt-3">
-                                        <img class="img_card" src="teacher_img/zohidjon).jpg" alt="">
-                                    </div>
-                                    <div class="icons mt-4">
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-facebook-f">
-                                                </i>
-                                            </a>
-                                        </div>
-                                        <div class="icons_div first_bg">
-                                            <a href="#">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </center>
-                            </div>
-                            <div class="col-12 col-lg-9 ps-4 mt-4 mt-lg-0">
-                                <h2 class="text-center text-lg-start">Kodirov Zohidjon Zokirxanovich</h2>
-                                <h6><i class="fa-solid fa-phone text-success"></i> +998 71 234 72 50</h6>
-                                <p><i class="fa-solid fa-envelope text-warning"></i> z_z_kodirov@gmail.com</p>
-                                <div class="btn_div">
-                                    <a href="#">
-                                        <button class="btn first_bg  px-4 py-2 shadov">Batafsil..</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                      </div>
+                      <!-- portfolio end -->
                 </div>
             </div>
         </section>
-        <!-- teacher section end -->
+        <!-- portfolio end -->
         <!-- footer start -->
         <section class="footer mt-100 border-top">
             <div class="container_new pt-5">
@@ -407,17 +348,19 @@
                         <ul class="nav flex-column">
                             <li class="nav-item mb-3 d-flex gap-2">
                                 <i class="fa-solid fa-location-dot"></i>
-                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">Islom Karimov ko`chasi 27-uy</a>
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">Islom Karimov ko`chasi
+                                    27-uy</a>
                             </li>
                             <li class="nav-item mb-3 d-flex gap-2">
                                 <i class="fa-solid fa-phone"></i>
-                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">+998 69 234 18 01. +998 69 234 15 23</a>
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">+998 69 234 18 01. +998 69
+                                    234 15 23</a>
                             </li>
                             <li class="nav-item mb-3 d-flex gap-2">
                                 <i class="fa-solid fa-envelope"></i>
                                 <a href="#" class="nav-link p-0 fs-13 white">nmpi_info@edu.uz</a>
                             </li>
-                            
+
                         </ul>
                     </div>
 
@@ -434,6 +377,8 @@
     <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
     <!-- main js -->
     <script src="app.js"></script>
+    <!-- progressJS -->
+    <script src="progress.js"></script>
 </body>
 
 </html>

@@ -145,6 +145,7 @@ div[role="progressbar"]::before {
 
 .footer{
     background: #336699;
+    color: #fff;
 }
 .footer a:hover{
     color: #fff;
@@ -263,9 +264,14 @@ div[role="progressbar"]::before {
     border-right: 1px solid #DEE2E6;
 }
 
+
+.none {
+    display: none !important;
+}
 .active {
     display: block !important;
 }
+
 
 .cursor_pointer {
     cursor: pointer;
@@ -299,6 +305,12 @@ a {
 
 .hover_d_2:hover {
     text-decoration: 1px underline #000 !important;
+}
+.border_t{
+    border-top: 1px solid #dee2e6;
+}
+.border_b{
+    border-bottom: 1px solid #dee2e6;
 }
 
 /* *-========== header menu section start ==========-* */
