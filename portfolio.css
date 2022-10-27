@@ -11,5 +11,29 @@
 }
 .port_card .card-body{
     padding: 10px;
-    display: inline-block;
+}
+
+@media screen and (max-width:992px) {
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .portfolio{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .port_card{
+        max-width: 560px;
+        display: inline-block;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+   
 }
