@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+
+.overlay_cont {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px !important;
+  padding: 20px 10px 5px 10px;
+  text-align: center;
+}
+.overlay p{
+    margin: 0;
+}
+
+.overlay_cont:hover .overlay {
+  opacity: 1;
+}
+.history_img{
+    filter: grayscale(100%);
+}

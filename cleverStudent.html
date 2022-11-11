@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- overlay css -->
+    <link rel="stylesheet" href="overlayHistory.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="app.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon title -->
+    <link rel="icon" href="img/title_logo.png">
+</head>
+
+<body>
+    <!-- modal dialog start -->
+    <section>
+        <div class="search_modal">
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header  py-0 pt-3">
+                    <span></span>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body py-0 pt-0">
+                    <div class="container">
+                        <h3 class="offcanvas-title first_color text-center">Sayt boyicha izlash</h3>
+                        <form action="" class="row justify-content-center">
+                            <div class="col-12 col-md-7">
+                                <div class="input-group mb-3 ">
+                                    <input type="text" class="form-control form-control-lg box_shadow_nonne"
+                                        placeholder="" aria-label="Example text with button addon"
+                                        aria-describedby="button-addon1">
+                                    <button class="btn px-4 first_bg" type="button" id="button-addon1">Button</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal dialog end -->
+    <section class="container-fluid p-0">
+        <!-- menue start -->
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container_new d-block">
+                    <div class="psevdo_left_right d-none d-sm-block"></div>
+                    <div class="row">
+                        <div class="col-12  justify-content-beetwen">
+                            <div class="row align-items-center">
+                                <div class="col-9 col-lg-5 align-items-center">
+                                    <div class="brand_div">
+                                        <a class="brand_link gap-2" href="index.html">
+                                            <img class="brand_img brand_im" src="img/att_logo.png" alt="">
+                                            <p
+                                                class="text-uppercase border-start ps-2 border-2 fs-6 mt-4 brand_text fw-bold d-none d-sm-block">
+                                                Axborot tizimlari va
+                                                texnologiyalari kafedrasi
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-3 order-1 order-lg-2">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                <div
+                                    class="col-12 col-lg-7 gap-3 align_items_center text-center  justify-content-between justify-content-lg-end order-2 order-lg-1 d-block d-sm-flex">
+                                    <div class="language d-flex justify-content-center mt-3 mt-sm-0">
+                                        <button class="brr-50 btn_language language_active uz">UZ</button>
+                                        <button class="brr-50 btn_language py">Py</button>
+                                        <button class="brr-50 btn_language eng">ENG</button>
+                                    </div>
+                                    <div class="number_namqi mt-3 mt-sm-0">
+                                        <p class="mb-0 fs-13">Ishonch telefonlari</p>
+                                        <a class="first_color fs-13" href="tel:+998692341523">(+99 869) 234-15-23</a>
+                                    </div>
+                                    <div class="search_inp mt-3 mt-sm-0">
+                                        <i data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                                            aria-controls="offcanvasTop"
+                                            class="fa-solid fa-magnifying-glass fs-4 first_color cursor_pointer"></i>
+                                    </div>
+                                    <div class="ms-5 d-none d-lg-block mt-3 mt-sm-0">
+                                        <a class="brand_link gap-3" href="https://nammqi.uz/">
+                                            <img class="brand_img" src="img/logotip NamMQI.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3 border-bottom">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 gap-0 gap-lg-3 mb-lg-0 col justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page" href="#">KAFEDRA
+                                            TARIXI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page"
+                                            href="teacher.html">Kafedra
+                                            tarkibi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page"
+                                            href="teacher.html">O'qitiladigan
+                                            fanlar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page"
+                                            href="teacher.html">Elektron
+                                            darslik</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" aria-current="page"
+                                            href="teacher.html">Iqtidorli
+                                            talabalar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">BOG'LANISH</a>
+                                    </li>
+
+
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- menue end -->
+        <!-- student start -->
+        <section class="student mt-5">
+            <div class="container">
+                <p class="fs-13">Asosiy / <span class="text-muted">Iqtidorli Talabalar</span></p>
+                <h4 class="text-uppercase">Iqtidorli Talabalar</h4>
+                <div class="row mt-5">
+                    <div class="row mt-5">
+                        <div class="col-8 col-md-6 col-xl-4">
+                            <img class="img-fluid w-70" src="img/talaba_1.png" alt="">
+                        </div>
+                        <div class="col-12 col-xl-8">
+                            <div class="text-center">
+                                <h5 class="fw-bold">Xasanov Xojiakbar</h5>
+                            </div>
+                            <p class="text">
+                                Iqtidorli yoshlar - O’zbekiston Respublikasining ijtimoiy va iqtisodiy taraqqiyotining
+                                hamda uning jahon hamjamiyatida munosib o’rin egallashini ta’minlovchi muhim omil va
+                                millat ziynati hisoblanadi. Iqtidorli talabalarni izlash, aniqlash va maqsadli
+                                tayyorlashning asosiy - maqsadi Respublikamizning ilmiy va ijodiy salohiyatini
+                                rivojlantiruvchi intellektual yoshlarni tayyorlash va bu borada yuksak iste’dod
+                                sohiblariga bilimnnng tegishli sohalari va fanning aniq yo’nalishlari bo’yicha o’z
+                                tabiiy qobiliyatlarini namoyon etish va rivojlantirish, o’zlaridagi noyob iste’dodni
+                                ro’yobga chiqarish uchun keng imkoniyatlar yaratishdir.
+                                ATT kafedarsida iqtidorli talabalarni ilmiy faoliyatga tizimli ravishda keng jalb etish
+                                borasida bir qator ishlar amalga oshirilmoqda. Jumladan, iqtidorli talabalardan 4 kurs
+                                16 – IAT – 19 gurux talabasi Xasanov Xojiakbar O’zbekiston Respublikasi bakalavriat
+                                uchun ta’sis etilgan Beruniy nomli Davlat stipediyasi soxibi bo’ldi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-8 col-md-6 col-xl-4">
+                            <img class="img-fluid w-70" src="img/talaba_3.png" alt="">
+                        </div>
+                        <div class="col-12 col-xl-8">
+                            <div class="text-center">
+                                <h5 class="fw-bold">Jakbaralieva Durdona</h5>
+                            </div>
+                            <p class="text">
+                               4-kurs talabasi Jakbaralieva Durdona “Innovativa Academy” ilmiy tadqiqotlarni
+                                ko’llab ko’vvatlash markazining 2022 yil 28 fevralida 12 sonli bo’yrug’iga asosan MDH
+                                miqyosida tashkil etilgan “Eng yaxshi innovator -2022” maqolalar tanlovining esdalik
+                                nishonibilan taqdirlandi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-8 col-md-6 col-xl-4">
+                            <img class="img-fluid w-70" src="img/talaba_4.png" alt="">
+                        </div>
+                        <div class="col-12 col-xl-8">
+                            <div class="text-center">
+                                <h5 class="fw-bold">Ikramov Islomjon</h5>
+                            </div>
+                            <p class="text">
+                                4-kurs talabasi Ikramov Islomjon
+                                Joriy yil 22-oktabr kuni "Yil talabasi-2022" tanlovining institut bosqichi oʻtkazildi.
+                                Fakultet bosqichida g'olib bo'lib, institut bosqichiga tavsiya etilgan nomzodlarning
+                                hujjatlari tanlov komissiyasi tomonidan ko'rib chiqildi. Unga ko'ra: “Yilning eng faol
+                                bilimdon talabasi” nominatsiyasi bo‘yicha: II-o‘rin soxibi bo’ldi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-8 col-md-6 col-xl-4">
+                            <img class="img-fluid w-70" src="img/talaba_5.png" alt="">
+                        </div>
+                        <div class="col-12 col-xl-8">
+                            <div class="text-center">
+                                <h5 class="fw-bold">Kamoliddinov Murod</h5>
+                            </div>
+                            <p class="text">
+                                4-kurs talabasi Kamoliddinov Murod Joriy yilning 5-6 noyabrь kunlari Namangan viloyati
+                                yoshlari o’rtasida “Hackathon” tanlovida 1-o’rinni qo’lga kiriti 10 mln. so’mlik
+                                vaucherni qo’lga kiritdi.
+                                19-21 may kunlari Toshkent shahrida o’tkazilgan "Mirzo Ulug’bek vorislari" ko’rik
+                                tanlovining Respublika bosqichida ishtirok etib, tanlov yakunlariga ko’ra g’alaba
+                                qozondi.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- student end -->
+        <!-- footer start -->
+        <section class="footer mt-100 border-top">
+            <div class="container_new pt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <p class="white">
+                            Namangan Muhandislik Qurulish instituti Axborot tizimlari va texnologiyalari kafedrasi <br>
+                            © 2006-2022
+                        </p>
+                        <a class="brand_link gap-2" href="index.html">
+                            <img class="brand_img brand_im" src="img/att_logo.png" alt="">
+                            <p
+                                class="text-uppercase border-start ps-2 border-2 fs-6 mt-4 brand_text fw-bold d-none d-sm-block white">
+                                Axborot tizimlari va
+                                texnologiyalari kafedrasi
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <h5 class="fw-bold mb-4">Tezkor havola</h5>
+                                <a href="khistory.html" class="nav-link text-uppercase p-0 fs-13 white">KAFEDRA
+                                    TARIXI</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="teacher.html" class="nav-link text-uppercase p-0 fs-13 white">KAFEDRA
+                                    TARKIBI</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">O'QITILADIGAN FANLAR</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">ELEKTRON DARSLIK</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">IQTIDORLI Talabalar</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <ul class="nav flex-column">
+                            <h5 class="fw-bold mb-4">Bog'lanish</h5>
+                            <li class="nav-item mb-3 d-flex gap-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">Islom Karimov ko`chasi
+                                    27-uy</a>
+                            </li>
+                            <li class="nav-item mb-3 d-flex gap-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="#" class="nav-link text-uppercase p-0 fs-13 white">+998 69 234 18 01. +998 69
+                                    234 15 23</a>
+                            </li>
+                            <li class="nav-item mb-3 d-flex gap-2">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="#" class="nav-link p-0 fs-13 white">nmpi_info@edu.uz</a>
+                            </li>
+                            <div class="icon_link d-flex gap-3">
+                                <a class="icon_mes first_bg" href="https://t.me/NamMQI_YI">
+                                    <i class="fa-sharp fa-solid fa-paper-plane white"></i>
+                                </a>
+                                <a class="icon_mes first_bg" href="https://www.instagram.com/nammqi.uzb/">
+                                    <i class="fa-brands fa-instagram white"></i>
+                                </a>
+                                <a class="icon_mes first_bg" href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- footer end -->
+    </section>
+
+
+
+
+    <!-- Bootstrap Js -->
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <!-- main js -->
+    <script src="app.js"></script>
+</body>
+
+</html>

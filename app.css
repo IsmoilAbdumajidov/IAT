@@ -15,6 +15,7 @@
     user-select: none;
     opacity: 0.05;
     /* border: 3px solid red; */
+    
 }
 .bg_text .img_text{
     width: 500px;
@@ -414,6 +415,9 @@ a {
 }
 .black{
     color: #000 !important;
+}
+.text{
+    text-align: justify;
 }
 
 /* *-========== helper code ==========*- */
